@@ -1,0 +1,7 @@
+CREATE TABLE [dbo].[tblTrainings](
+	[id] [int] IDENTITY(1,1) NOT NULL,
+	[Training] [varchar](60) NOT NULL,
+	[startDate] [date] NOT NULL,
+	[endDate] [date] NOT NULL
+) ON [PRIMARY]
+GO
